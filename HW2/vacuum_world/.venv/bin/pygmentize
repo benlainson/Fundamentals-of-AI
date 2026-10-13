@@ -1,0 +1,6 @@
+#!/Users/benlainson/Documents/COSC4600/HW2/vacuum_world/.venv/bin/python
+import sys
+from pygments.cmdline import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
